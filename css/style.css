@@ -15,7 +15,7 @@ a{
 	color: black !important;
 }
 #header.nav-item a:hover{
-	color: blue !important;
+	color: #0C52A3 !important;
 }
 .navbar-brand{
 	font-size: 28px !important;
@@ -86,3 +86,25 @@ header.header-scrolled{
  }
 
 /*================banner section ends================================*/
+/*================iconboxes section starts================================*/
+#iconboxes{
+	margin: 20px 0 20px 0;
+}
+#iconboxes .icon-box{
+	padding: 50px 30px;
+	 box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.08);
+	 transition: all ease-in-out 0.5s
+}
+.icon-box:hover{
+	
+	transform: scale(1.09) ;
+}
+.icon-box .fa{
+	color:#0C52A3;
+	font-size: 26px;
+	padding-bottom: 18px;
+}
+.icon-box:hover .title{
+	color: #0C52A3;
+}
+/*================iconboxes section ends================================*/
