@@ -93,7 +93,7 @@ header.header-scrolled{
 	font-size: 35px;
 	color: #124265;
     
-     line-height:80px;}
+     line-height:35px;}
      #banner p{
  	color:black;
  	font-size: 20px;
@@ -328,9 +328,9 @@ header.header-scrolled{
 /*---------------------todolist section--------------------------------------------------*/
 
 .box{
-    width:100%;
-    max-width:523px;
-    min-width:400px;
+    max-width:100%;
+    
+    
     margin:0px auto;
     border:1px solid #2487ce;
     border-radius:4px;
