@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>TECH NEW</title>
+		<title>TECH NEW | Home</title>
 		<meta name="author" content="vignesh v">
 		<meta name="keywords" content="">
 		<meta name="description" content="">
@@ -11,10 +11,14 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		 
 	</head>
 	<body>
+		
+		
 		<!-----------=======================header start========================---->
-		<header id="header" class="navigation">
+		<header id="header" class="navigation scrolls">
 			<nav class="navbar navbar-expand-lg navbar-light bg-white">
 				<a class="navbar-brand" href="#"><span>TECH</span> NEW</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,24 +26,20 @@
 				</button>
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav ml-auto text-center">
-						<li class="nav-item active">
-							<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+						<li class="nav-item">
+							<a class="nav-link" href="#banner">Home <span class="sr-only">(current)</span></a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">About</a>
+							<a class="nav-link" href="#about-us">About</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Services</a>
+							<a class="nav-link" href="#services">Services</a>
 						</li>
+						
 						<li class="nav-item">
-							<a class="nav-link" href="#">Portfolio</a>
+							<a class="nav-link" href="#team">Team</a>
 						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Team</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Pricing</a>
-						</li>
+						
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								Dropdown
@@ -51,7 +51,7 @@
 							</div>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+							<a class="nav-link" href="#contact" tabindex="-1" aria-disabled="true">Contact</a>
 						</li>
 					</ul>
 					<form class="form my-2 my-lg-0">
@@ -66,17 +66,18 @@
 				<div class="row justify-content-center">
 					<div class="col-lg-7 col-md-9 text-center">
 						<h1>WELCOME TO TECH NEW</h1>
-						<P>Technology that changes the World</P>
+						<P data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100"data-aos-iteration-count-infinite >Technology that changes the World</P>
 					</div>
 				</div>
 				<div class="text-center">
 					<a href="#about" class="btn">Get Started</a>
 				</div>
 			</div>
+			<a href="#" class="go-top">To Top</a>
 		</section>
 		<!---================iconboxes section starts============================-->
 		<section id="iconboxes">
-			<div class="container">
+			<div class="container" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
 				<div class="row">
 					<div class="col-lg-3 col-md-6">
 						<div class="icon-box">
@@ -111,10 +112,9 @@
 			</div>
 		</section>
 		<!---================iconboxes section ends============================-->
-
 		<!---=============  about us section -------=================-->
-		<section id="about-us ">
-			<div class="container p-5">
+		<section id="about-us">
+			<div class="container p-5" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
 				<div class="about-title text-center">
 					<h4>About Us</h4>
 					<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.</p>
@@ -126,7 +126,6 @@
 							<li><i class="fa fa-arrow-right" aria-hidden="true"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
 							<li><i class="fa fa-arrow-right" aria-hidden="true"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
 						</ul>
-
 					</div>
 					<div class=" content col-lg-6">
 						<p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -135,13 +134,406 @@
 				</div>
 			</div>
 		</section>
-
 		<!---=============  about us section ends -------=================--->
 
-		
-		
-		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+		<!---=============  TODO LIST section ends -------=================--->
+
+<section id="todo">
+	<div class="container p-5" data-aos="fade-up">
+		<h2 class="section-title text-center">Your Bussiness Name</h2>
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="box">
+		<div class="input-group mb-3">
+			<input type="text" class="inp form-control" placeholder="enter your bussiness name" aria-label="Recipient's username" aria-describedby="button-addon2">
+			<div class="input-group-append">
+				<button class="btn btn-info but" type="button" id="button-addon2">Add</button>
+			</div>
+		</div>
+		<ul class='list-group list-group-flush'>
+			
+		</ul>
+	</div>
+
+			</div>
+		</div>
+	</div>
+</section>
+		<!---=============  TODO LIST section ends -------=================--->
+
+		<!---=============  counter section starts -------=================--->
+		<section id="counters" class=" align-items-center d-flex bg-primary">
+			<div class="container">
+				<div class="row counter-row text-center">
+					<div class="col-lg-3 col-md-6 col-6">
+						<div class="counter-box">
+							<span class="counter-icon"><i class="fa fa-handshake-o" aria-hidden="true"></i></span>
+							<h4 class="counter-title">65</h4>
+							<p class="counter-description">Happy Clients</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-6">
+						<div class="counter-box">
+							<span class="counter-icon"><i class="fa fa-handshake-o" aria-hidden="true"></i></span>
+							<h4 class="counter-title">78</h4>
+							<p class="counter-description">Projects</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-6">
+						<div class="counter-box">
+							<span class="counter-icon"><i class="fa fa-handshake-o" aria-hidden="true"></i></span>
+							<h4 class="counter-title">15</h4>
+							<p class="counter-description">Year of Experience</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-6">
+						<div class="counter-box">
+							<span class="counter-icon"><i class="fa fa-handshake-o" aria-hidden="true"></i></span>
+							<h4 class="counter-title">13</h4>
+							<p class="counter-description">Awards</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</section>
+		<!---=============  counter section ends -------=================--->
+		<!--=======client section starts------------------->
+		<section id="myclients">
+			<div class="container">
+				<div class="section-title text-center">
+					<h2 class="animate__animated animate__bounce">Clients</h2>
+				</div>
+				<div class="row text-center">
+					<div class="col-lg-2 col-md-4 col-12 mb-3">
+						<img src="images/clients/client-1.png" class="img-fluid client">
+					</div>
+					<div class="col-lg-2 col-md-4 col-12 mb-3   ">
+						<img src="images/clients/client-2.png" class="img-fluid client">
+					</div>
+					<div class="col-lg-2 col-md-4 col-12  mb-3   ">
+						<img src="images/clients/client-3.png" alt="clients" class="img-fluid client">
+					</div>
+					<div class="col-lg-2 col-md-4 col-12 mb-3   ">
+						<img src="images/clients/client-4.png" class="img-fluid client">
+					</div>
+					<div class="col-lg-2 col-md-4 col-12  mb-3   ">
+						<img src="images/clients/client-5.png" class="img-fluid client">
+					</div>
+					<div class="col-lg-2 col-md-4 col-12 mb-3   ">
+						<img src="images/clients/client-6.png" class="img-fluid client">
+					</div>
+				</section>
+				
+				<!--=======client section  ends------------------->
+				<!--=====service section--------------->
+				<section id="services" class="services">
+					<div class="container">
+						<div class="service-title text-center">
+							<h1>Services</h1>
+							<p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+						<div class="row text-center">
+							<div class="col-lg-4">
+								<div class="service-box">
+									<div class="servive-icon"><i class="fa fa-user-circle-o" aria-hidden="true"></i></div>
+									<div class="service-titles">Lorem ipsumm</div>
+									<div class="service-description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</div>
+								</div>
+							</div>
+							<div class="col-lg-4">
+								<div class="service-box">
+									<div class="servive-icon"><i class="fa fa-user-circle-o" aria-hidden="true"></i></div>
+									<div class="service-titles">Lorem ipsumm</div>
+									<div class="service-description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</div>
+								</div>
+							</div>
+							<div class="col-lg-4">
+								<div class="service-box">
+									<div class="servive-icon"><i class="fa fa-user-circle-o" aria-hidden="true"></i></div>
+									<div class="service-titles">Lorem ipsumm</div>
+									<div class="service-description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</div>
+								</div>
+							</div>
+							<div class="col-lg-4">
+								<div class="service-box">
+									<div class="servive-icon"><i class="fa fa-user-circle-o" aria-hidden="true"></i></div>
+									<div class="service-titles">Lorem ipsumm</div>
+									<div class="service-description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</div>
+								</div>
+							</div>
+							<div class="col-lg-4">
+								<div class="service-box">
+									<div class="servive-icon"><i class="fa fa-user-circle-o" aria-hidden="true"></i></div>
+									<div class="service-titles">Lorem ipsumm</div>
+									<div class="service-description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</div>
+								</div>
+							</div>
+							<div class="col-lg-4">
+								<div class="service-box">
+									<div class="servive-icon"><i class="fa fa-user-circle-o" aria-hidden="true"></i></div>
+									<div class="service-titles">Lorem ipsumm</div>
+									<div class="service-description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!--=====service section ends--------------->
+				<!--=====action section starts--------------->
+				<section id="action">
+					<div class="container action">
+						<div class="text-center">
+							<h2>Call To Action</h2>
+							<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<a href="" class="btn text-white">Call To Action</a>
+						</div>
+					</div>
+				</section>
+				<!--=====action section ends--------------->
+				<!--=====team section starts--------------->
+				<section id="team">
+					<div class="container team">
+						<div class="team-title text-center">
+							<h2>TEAM</h2>
+							<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+						</div>
+						<div class="row text-center">
+							<div class="col-lg-3 col-md-6 col-sm-12">
+								<div class="card">
+									<img src="images/team/team-1.jpg" class="card-img-top img-fluid" alt="team-member">
+									<div class="card-body">
+										<h3 class="card-title">Walter White</h3>
+										<p class="card-text">CTO</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6 col-sm-12">
+								<div class="card">
+									<img src="images/team/team-2.jpg" class="card-img-top img-fluid" alt="">
+									<div class="card-body">
+										<h3 class="card-title">Sarah Jhonson</h3>
+										<p class="card-text">Accountant</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6 col-sm-12">
+								<div class="card">
+									<img src="images/team/team-3.jpg" class="card-img-top img-fluid" alt="">
+									<div class="card-body">
+										<h3 class="card-title">William Anderson</h3>
+										<p class="card-text">Product Manager</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6 col-sm-12">
+								<div class="card">
+									<img src="images/team/team-4.jpg" class="card-img-top img-fluid" alt="">
+									<div class="card-body">
+										<h3 class="card-title">Amanda Jepson</h3>
+										<p class="card-text">Chief Executive Officer</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!--=============team section- ends-------------=========---->
+				<!-------------location section-------------------------------->
+				<section id="contact">
+					<div class="container contacts">
+						<div class="contact-title text-center mb-5"><h2>Contact</h2>
+							<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p></div>
+							<div class="contact-map text-center">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31352.743425186793!2d76.62128305!3d10.8041944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1591595536704!5m2!1sen!2sin" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="true" aria-hidden="false" tabindex="0"></iframe>
+							</div>
+							<div class="row pt-4">
+								<div class="col-lg-4">
+									<div class="info">
+										<div class="loca">
+											<i class="fa fa-map-marker" aria-hidden="true"></i>
+											<h3>Location:</h3>
+											<p>India</p>
+										</div>
+										<div class="email">
+											<i class="fa fa-envelope-o" aria-hidden="true"></i>
+											<h3>Email:</h3>
+											<p>info@example.com</p>
+										</div>
+										<div class="call">
+											<i class="fa fa-phone" aria-hidden="true"></i>
+											<h3>Call:</h3>
+											<p>+1 5589 55488 55s</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-8">
+									
+									<form action="" class=""  method="post" >
+										<div class="form-inline">
+											<div class="col-md-6 form-group">
+												<input type="text" class="form-control" placeholder="Enter your name" id="name"        style="width:100%">
+											</div>
+											<div class="col-md-6 form-group mt-sm-2 mt-md-0">
+												<input type="email" class="form-control" placeholder="Enter Email" id="mail" style="width:100%">
+											</div>
+										</div>
+										<div class="form-group col-md-12 mt-3">
+											<input type="text" class="form-control" placeholder="subject" id="sub">
+										</div>
+										<div class="form-group col-md-12 mt-3">
+											<textarea name=" messages"  column="9" rows="8" placeholder="messages"style="width:100%" class="p-3"></textarea>
+										</div>
+									</form>
+									<div class="text-center"><button type="submit">Send Message</button></div>
+								</div>
+							</div>
+						</section>
+						<!-------------location section ends-------------------------------->
+						<!-------------footer section starts-------------------------------->
+						<section id="footer" class="footer mt-5">
+							<div class="footer-top">
+								<div class="container">
+									<div class="row">
+										<div class="col-lg-3">
+											<h3>TECH NEW</h3>
+											<P>A108 Adam Street<br>
+												New York, NY 535022<br>
+												United States<br><br>
+												<strong>Phone:</strong>+1 5589 55488 55
+											<strong>Email:</strong>info@example.com</P>
+										</div>
+										<div class="col-lg-2">
+											<h4>Menu</h4>
+											<ul>
+												<li><a href="">Home</a></li>
+												<li><a href="">About Us</a></li>
+												<li><a href="">Services</a></li>
+												<li><a href="">Terms of Conditions</a></li>
+												<li><a href="">Privacy Policy</a></li>
+											</ul>
+										</div>
+										<div class="col-lg-3">
+											<h4>Services</h4>
+											<ul>
+												<li><a href="">Web Design</a></li>
+												<li><a href="">Web Development</a></li>
+												<li><a href="">Product Management</a></li>
+												<li><a href="">Marketing</a></li>
+												<li><a href="">Graphic Design</a></li>
+											</ul>
+										</div>
+										<div class="col-lg-4">
+											<h4>Join our News Letter</h4>
+											<p>Tamen quem nulla quae legam multos aute sint <br>culpa legam noster magna</p>
+											<form>
+												
+												<div class="input-group mb-3">
+													<input type="text" class="form-control" placeholder="subscribe">
+													<div class="input-group-append">
+														<span class="input-group-text bg-primary text-white">subscribe</span>
+													</div>
+												</div>
+											</form>
+										</div>
+									</div>
+								</div>
+								
+							</div>
+							<!--------------------------------------------------->
+							<div class="container d-md-flex py-4">
+								<div class="mr-md-auto text-center text-md-left">
+									<div class="copyright">
+										&copy; Copyright <strong><span>TECH NEW</span></strong>. All Rights Reserved
+									</div>
+									<div class="credits">
+									Designed by Vignesh V</a>
+								</div>
+							</div>
+							<div class="social-links text-center text-md-right pt-3 pt-md-0">
+								<a href="#" class="twitter"><i class="fa fa-facebook"></i></a>
+								<a href="#" class="facebook"><i class="fa fa-instagram"></i></a>
+								<a href="#" class="instagram"><i class="fa fa-skype"></i></a>
+								<a href="#" class="google-plus"><i class="fa fa-twitter"></i></a>
+								<a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+							</div>
+						</div>
+					</section>
+					
+					<!-------------footer section ends-------------------------------->
+					
+					
+					
+					<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+					
+					<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+					<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+					<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+					<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+					<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+					<script>
+						
+					$('.counter-title').counterUp({
+					delay: 15,
+					time: 1000
+					});
+				
+
+let ul = document.querySelector('.list-group'),
+    inp = document.querySelector('.inp'),
+    btn = document.querySelector('.but');
+
+    TodoList();
+
+    function TodoList(){
+
+        btn.addEventListener('click', addElem);
+        
+        function addElem(){
+            let li = document.createElement('li');
+            let span = document.createElement('span');
+            let imgDone = document.createElement('img');
+            let imgClear = document.createElement('img');
+            let imgImportant = document.createElement('img');
+            let text = document.createElement('span');
+            text.classList.add('text');
+            span.classList.add('iconsBox');
+            imgDone.classList.add('done');
+            imgImportant.classList.add('important');
+            imgClear.classList.add('clear');
+            imgDone.src = 'https://sun9-21.userapi.com/c857620/v857620401/ece72/7GqaMjhxJPI.jpg';
+            imgImportant.src = 'https://sun9-33.userapi.com/c857620/v857620892/eaf75/TXzryOXrPdQ.jpg'
+            imgClear.src = 'https://sun9-27.userapi.com/c857620/v857620401/ece6b/gjP1XoL59lM.jpg';
+            
+
+            text.innerHTML = inp.value;
+            inp.value = '';
+            li.classList.add('li');
+
+            imgDone.addEventListener('click',function active(){
+                text.classList.toggle('active');
+            })
+
+            imgClear.addEventListener('click',function(){
+                li.parentNode.removeChild(li)
+            });
+
+            imgImportant.addEventListener('click',function(){
+                text.classList.toggle('import')
+            });
+
+
+            span.appendChild(imgDone);
+            span.appendChild(imgImportant)
+            span.appendChild(imgClear);
+            li.appendChild(text)
+            li.appendChild(span)
+            ul.appendChild(li);
+        }
+}
+</script>
 	</body>
-</html>
+	</html>

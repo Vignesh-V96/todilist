@@ -148,3 +148,223 @@ header.header-scrolled{
 }
 
 /*================about section ends================================*/
+/*================counter section starts================================*/
+ #counters{
+ 	max-width: 100%;
+ 	background: lightcyan !important;
+ 	padding: 60px 0;
+ }
+ .counter-box .counter-title{
+ 	font-weight: 700;
+ 	font-size: 50px;
+ }
+ .counter-icon .fa{
+ 	font-size: 25px;
+ }
+ .counter-description{
+ 	color:#124265 !important;
+ 	font-size: 16px;
+ 	font-weight: 500;
+ }
+/*================counter section ends================================*/
+/*---------------------------client section starts------*/
+#myclients{
+	padding: 55px 0px;
+}
+.section-title{
+	color:#124265 !important;
+   	font-family: "Poppins", sans-serif;
+   	font-weight: 500;
+   	font-size: 34px;
+    padding-bottom: 30px;
+}
+#myclients img{
+	max-width: 100px;
+}
+	/*--------------client section ends---------------*/
+/* -----------------------------service section start-------------------------*/
+#services{
+	padding: 20px 0px;
+	background: #F8FBFE;
+}
+.service-box{
+	padding: 90px 30px;
+	box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.08); 
+	margin-bottom: 30px;
+}
+.service-box .fa{
+	font-size: 40px;
+	color: #124265;
+}
+.service-titles{
+	color:#2487ce;
+   	font-family: "Poppins", sans-serif;
+   	font-weight: 500;
+   	font-size: 22px;
+   	line-height: 78px;
+}
+.service-title h1{
+	color:#124265;
+   	font-family: "Poppins", sans-serif;
+ }
+ .service-title p{
+ 	padding-bottom: 12px;
+ }
+.service-description{
+	color:black;
+		font-family: "Poppins", sans-serif;
+}
+/* -----------------------------service section end---------------------------*/
+/* ===============================action section start====================================*/
+ #action{
+ 	max-width: 100%;
+ 	background:#2487ce;
+ 	padding: 40px 0px;
+ 	color: white;
+ 	font-family: poppins;
+ }
+ .action .btn{
+ 	border: 2px solid white;
+ 	padding: 10px 24px;
+ }
+
+/* ===============================action section ends====================================*/
+
+/* ===============================team section starts====================================*/
+#team{
+	padding: 60px 0;
+	background: #F8FBFE;
+	margin: 20px 0;
+}
+.team .card{
+	margin-top: 50px;
+}
+.team .card-title{
+	color: #124265;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+}
+.team-title{
+	color: #124265;
+
+}
+.card-text{
+	color:#AEAFB0;
+}
+.team-title p{
+	color: #AEAFB0;
+}
+/* ===============================team section ends====================================*/
+
+/* ===============================team section ends====================================*/
+
+.contacts h2{
+	color:#124265;
+   	font-family: "Poppins", sans-serif;
+ }
+ .info i{
+ 	color: #fff;
+ 	width: 50px;
+ 	height: 50px;
+ 	background:#2487CE;
+ 	display: flex;
+ 	text-align: center;
+ 	justify-content: center;
+ 	align-items: center;
+ 	float: left;
+ 	margin-right: 20px;
+ 	font-size: 25px;
+ }
+ .info h2{
+ 	color:#124265; 
+ }
+ .info p{
+ 	color: #2487CE;
+ }
+ .contacts button{
+ 	font-size: 15px;
+ 	padding: 8px 34px;
+ 	color: #fff;
+ 	background:#2487CE;
+ 	border: none;
+ 	font-family: "Poppins", sans-serif;
+ 	
+ }
+
+ #footer{
+ 	
+ 	max-width: 100%;
+ }
+.social-links i{
+	width: 30px;
+	height: 30px;
+	color: #fff;
+	background:#2487CE;
+
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	display: inline-flex
+}
+
+/*      ==========================scroll up bitton=========*/
+
+
+/*-----------------------------------------------------------------------*/
+
+
+/*---------------------todolist section--------------------------------------------------*/
+
+.box{
+    width:100%;
+    max-width:850px;
+    min-width:400px;
+    margin:0px auto;
+    border:1px solid #2487ce;
+    border-radius:4px;
+    padding:30px 50px;
+
+}
+.inp{
+    margin-bottom:50px;
+}
+
+
+.li{
+    display:flex;
+    justify-content: space-between;
+    padding:20px 0 0 0;
+    border-bottom:1px solid silver;
+    font-size:20px;
+    width:100%;
+}
+.text{
+    word-wrap: break-word;
+    overflow-x:hidden;
+}
+.iconsBox{
+    display:flex;
+    align-self:center;
+}
+.done{
+    cursor:pointer;
+}
+.important{
+    margin:0 10px;
+    cursor: pointer;
+}
+.import{
+    font-size:23px;
+    font-weight:700;
+    color:tomato;
+}
+.clear{
+    cursor: pointer;
+}
+.active{
+    text-decoration:line-through;
+    color:silver;
+}
+
+
+/*-----------------------------------------------------------------------*/
