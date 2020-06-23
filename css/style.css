@@ -87,6 +87,18 @@ header.header-scrolled{
  	color:black;
  	font-size: 25px;
  }
+ @media screen and (max-width: 576px){
+ 	#banner h1{
+	font-weight: 600;
+	font-size: 35px;
+	color: #124265;
+    
+     line-height:80px;}
+     #banner p{
+ 	color:black;
+ 	font-size: 20px;
+ }
+ }
 
 /*================banner section ends================================*/
 /*================iconboxes section starts================================*/
@@ -317,7 +329,7 @@ header.header-scrolled{
 
 .box{
     width:100%;
-    max-width:850px;
+    max-width:523px;
     min-width:400px;
     margin:0px auto;
     border:1px solid #2487ce;
